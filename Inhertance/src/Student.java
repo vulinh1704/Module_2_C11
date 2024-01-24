@@ -15,7 +15,8 @@ public class Student extends Person {
         return this.score;
     }
 
-    public void study() {
-        System.out.println("Đang học");
+    @Override
+    public String play() {
+        return "Student is playing";
     }
 }
