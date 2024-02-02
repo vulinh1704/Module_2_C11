@@ -44,5 +44,20 @@ public class C {
         dequeue.addFirst(2);
         dequeue.addLast(3); // 2 1 3
         System.out.println(dequeue.getFirst());
+
+
+        Set<Integer> set = new HashSet<>();
+        int[] arr = {0, 1, 2, 4, 5};
+        System.out.println(arr[23]);
+
+//        Map<String, Integer> map = new HashMap<>();
+//        map.put("SoHai", 2);
+//
+//        Map<String, Map<String, Integer>> map1 = new HashMap<>();
+//        map1.put("a", map);
+        // John    521894
+        // Lisa    5211234
+        // Sandra  5219655
     }
 }
+
