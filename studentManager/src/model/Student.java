@@ -1,10 +1,12 @@
 package model;
 
+import java.util.Locale;
+
 public class Student {
-    private int id;
-    private String name;
+    private int id; // 0
+    private String name; // null
     private String gender;
-    private double score;
+    private double score; // 0.0
 
     public Student(int id, String name, String gender, double score) {
         this.id = id;
@@ -14,10 +16,11 @@ public class Student {
     }
 
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(int id) {
+        int a;
         this.id = id;
     }
 
@@ -49,4 +52,5 @@ public class Student {
     public String toString() {
         return "Student have id: " + id + " - name: " + name + " - score: " + score;
     }
+
 }

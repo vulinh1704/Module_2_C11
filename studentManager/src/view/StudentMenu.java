@@ -18,7 +18,7 @@ public class StudentMenu {
             System.out.println("4.Find student");
             System.out.println("5.Find By Name Containing");
             System.out.println("6.Find Student max score");
-            System.out.println("6.Show all student");
+            System.out.println("7.Show all student");
             System.out.println("0.Exit");
             System.out.println("Enter choice: ");
             choice = Input.getNumber();
@@ -29,7 +29,7 @@ public class StudentMenu {
                 case 2:
                     System.out.println("Lựa chọn 2");
                     break;
-                case 6:
+                case 7:
                     showAll();
                     break;
             }
