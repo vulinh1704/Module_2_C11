@@ -1,8 +1,11 @@
 import view.StudentMenu;
+import view.UserMenu;
 
 public class Main {
     public static void main(String[] args) {
-        StudentMenu studentMenu = new StudentMenu();
-        studentMenu.showMainMenu();
+
+        UserMenu userMenu = new UserMenu();
+        userMenu.showLoginMenu();
+
     }
 }

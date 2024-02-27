@@ -1,6 +1,7 @@
 package view;
 
 import input.Input;
+import input.StudentValidator;
 import model.Student;
 import service.StudentService;
 import java.util.List;
@@ -46,9 +47,9 @@ public class StudentMenu {
     public void showFormAdd() {
         System.out.println("------------- Thêm mới sinh viên -----------");
         System.out.println("Enter ID: ");
-        int id = Input.getNumber();
+        int id = StudentValidator.getId();
         System.out.println("Enter name: ");
-        String name = Input.getString();
+        String name = StudentValidator.getName();
         System.out.println("Enter gender: ");
         String gender = Input.getString();
         System.out.println("Enter Score: ");
